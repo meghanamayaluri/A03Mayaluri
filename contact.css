@@ -1,0 +1,66 @@
+.body{
+	background-image: url("contact.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    color: blue;
+    font-family:garamond;
+    font-size:30px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    display: inline;
+    float: left;
+    tab-size: 4;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 4px 15px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+input[type=text],select{
+    font-size:30px;
+    width:50%;
+    padding:5px 5px;
+    margin: 8px 0;
+    
+    border-radius: 2px;
+    box-sizing:border-box;
+}
+input[type=submit]{
+    width:100%;
+    background-color:blue;
+    color:white;
+    padding: 14px 20px;
+    margin: 8px 14px;
+    border:7px;
+    max-width:230px;
+    border-radius:4px;
+    cursor:pointer;
+    box-sizing:border-box;
+
+}
+input[type=button]:hover{
+    background-color:cyan;
+}
+.set{
+    font-family:garamond;
+    font-size:60px;
+}
+.float{
+    float:right;
+}

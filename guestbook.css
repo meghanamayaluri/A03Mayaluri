@@ -1,0 +1,41 @@
+body{
+	background-image: url("g3.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+   background-position:center top;
+   
+    
+    color: blue;
+    font-family:garamond;
+    font-size:70px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    display: inline;
+    float: left;
+    tab-size: 4;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 4px 15px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+#font{
+    font-family: garamond;
+    font-size: 25px;
+}

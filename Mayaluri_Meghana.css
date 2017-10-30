@@ -1,0 +1,72 @@
+.body{
+	background-image: url("pic.jpg");
+	background-size:100%;
+	font-size:25px;
+	font-family:garamond;
+}
+#div{
+	margin:50Px;
+    padding: 35px; 
+	text-align:left;
+	max-width: 1500px;
+	color: black;
+	 }
+#myHeader{
+
+    
+    color:white;
+    border:3px;
+    max-width:250px;
+    border-radius:1px;
+    cursor:pointer;
+    
+}	 
+.main{
+	max-width:280px;
+    font-size: 25px;    
+	text-align: left;
+	font-weight: 900;
+	color: black;
+	}
+.info{
+       
+	font-size:18px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-stretch: expanded;
+	color: black;
+}
+.img-circle{
+	border-radius: 30%;
+	float:right;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+	float: left;
+	
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:black;
+}
+.color{
+	color:red;
+}
+	
+
+

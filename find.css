@@ -1,0 +1,35 @@
+.body{
+	background-image: url("find.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    font-size:30px;
+    font-family:garamond;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 4px 15px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+p {
+    font-size: 20px;
+    font-weight: bold;
+
+}
